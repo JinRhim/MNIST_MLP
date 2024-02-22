@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at MNIST_MLP.sv(160): always construct contains both blocking and non-blocking assignments File: D:/github/MNIST_MLP/MNIST_MLP.sv Line: 160

@@ -1,0 +1,324 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/project14_mnist_v2/project12_mnist_multiplier/modelsim
+vbias1_adder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 17 MNIST_MLP_sv_unit 0 22 [T`XWE;f1TR]fCfEC0FM:3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YF@<4H@IA<o79f`lZ5HzC2
+IBQMhzl`jJB@;mM4akM5Xz2
+Z3 !s105 MNIST_MLP_sv_unit
+S1
+Z4 dD:/github/MNIST_MLP/modelsim
+Z5 w1708552296
+Z6 8D:/github/MNIST_MLP/MNIST_MLP.sv
+Z7 FD:/github/MNIST_MLP/MNIST_MLP.sv
+L0 301
+Z8 OV;L;10.5b;63
+Z9 !s108 1708553987.000000
+Z10 !s107 D:/github/MNIST_MLP/MNIST_MLP.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/MNIST_MLP.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vbias2_adder
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 PX?7MU:8UT^>=mjVgKkdL0
+IOF>eb6Z>Y8RMk]R74<WNf2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 347
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vint_bias1_bram
+R0
+Z14 !s110 1708553987
+!i10b 1
+!s100 XEojS[h[=oQoRR:bUfjiX2
+IFS0glKQET8^c?WjSk5C>X2
+R2
+!s105 int_bias1_bram_sv_unit
+S1
+R4
+w1707874196
+8D:/github/MNIST_MLP/int_bias1_bram.sv
+FD:/github/MNIST_MLP/int_bias1_bram.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/github/MNIST_MLP/int_bias1_bram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/int_bias1_bram.sv|
+!i113 1
+R12
+R13
+vint_bias2_bram
+R0
+R14
+!i10b 1
+!s100 ^F92Ec3ekcF]zjzB7OSYg0
+I0i`<BMUjj4DI<3;XAi^JO3
+R2
+!s105 int_bias2_bram_sv_unit
+S1
+R4
+w1708294110
+8D:/github/MNIST_MLP/int_bias2_bram.sv
+FD:/github/MNIST_MLP/int_bias2_bram.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/github/MNIST_MLP/int_bias2_bram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/int_bias2_bram.sv|
+!i113 1
+R12
+R13
+vint_weight1_bram
+R0
+R14
+!i10b 1
+!s100 @[`E8c9IcA2k<1=l<R^Q_0
+IeD]DTl9YO?oYYM^:Ul[2j1
+R2
+!s105 int_weight1_bram_sv_unit
+S1
+R4
+w1707434285
+8D:/github/MNIST_MLP/int_weight1_bram.sv
+FD:/github/MNIST_MLP/int_weight1_bram.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/github/MNIST_MLP/int_weight1_bram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/int_weight1_bram.sv|
+!i113 1
+R12
+R13
+vint_weight2_bram
+R0
+R14
+!i10b 1
+!s100 m:1_MYOk_8ZamBi?48k010
+ImjV2TQBHb<S>TlhYWknEz1
+R2
+!s105 int_weight2_bram_sv_unit
+S1
+R4
+w1708293393
+8D:/github/MNIST_MLP/int_weight2_bram.sv
+FD:/github/MNIST_MLP/int_weight2_bram.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/github/MNIST_MLP/int_weight2_bram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/int_weight2_bram.sv|
+!i113 1
+R12
+R13
+vMNIST_MLP
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Lbeh[[2eg]6zj[=WKRU9o1
+I1]>_mL2GoZEbbUm0ZAR432
+R3
+S1
+R4
+R5
+R6
+R7
+L0 28
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@n@i@s@t_@m@l@p
+XMNIST_MLP_sv_unit
+R0
+V[T`XWE;f1TR]fCfEC0FM:3
+r1
+!s85 0
+31
+!i10b 1
+!s100 GmT4Ohk3^e:<R1Bo>U9IA3
+I[T`XWE;f1TR]fCfEC0FM:3
+!i103 1
+S1
+R4
+R5
+R6
+R7
+L0 7
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@n@i@s@t_@m@l@p_sv_unit
+vMNIST_MLP_tb
+R0
+R14
+!i10b 1
+!s100 b:fJ2a6;lo==KjYo`8UK>1
+IMa^Vn7VRmh2HOD[U5kXoG2
+R2
+!s105 MNIST_MLP_tb_sv_unit
+S1
+R4
+w1708553952
+8D:/github/MNIST_MLP/modelsim/MNIST_MLP_tb.sv
+FD:/github/MNIST_MLP/modelsim/MNIST_MLP_tb.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/github/MNIST_MLP/modelsim/MNIST_MLP_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/github/MNIST_MLP/modelsim/MNIST_MLP_tb.sv|
+!i113 1
+R12
+R13
+n@m@n@i@s@t_@m@l@p_tb
+vsoftmax
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 N8KiR0PYgQ;HDHk:I=<EY1
+IoR1R9[0`Dcz8KJ9<<gSW`2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 364
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vw1_signed_mult
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 l>;zXT<ThHckQb=nYWP5?3
+I@77DIEQHY_R8di4YDn]Lc1
+R3
+S1
+R4
+R5
+R6
+R7
+L0 263
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vweight1_multiplier
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 dzMaU5BZ]cGMWY=4LV1zP1
+IU2T`h0Mz[Fl?0Wf1@kzob1
+R3
+S1
+R4
+R5
+R6
+R7
+L0 275
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vweight2_multiplier
+R0
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 0_=GL5ElafALB7QH3Go;d2
+IHX^]mF=eTYj9Q00>WEmMj1
+R3
+S1
+R4
+R5
+R6
+R7
+L0 326
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
