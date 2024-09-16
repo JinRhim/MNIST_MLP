@@ -5491,11 +5491,11 @@ pixel_in[6] => pixel_buffer.data_a[6].DATAIN
 pixel_in[6] => pixel_buffer.DATAIN6
 pixel_in[7] => pixel_buffer.data_a[7].DATAIN
 pixel_in[7] => pixel_buffer.DATAIN7
-inference_index[0] <= inference_index[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-inference_index[1] <= inference_index[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-inference_index[2] <= inference_index[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-inference_index[3] <= inference_index[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-output_en <= output_en~reg0.DB_MAX_OUTPUT_PORT_TYPE
+inference_index[0] << inference_index[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+inference_index[1] << inference_index[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+inference_index[2] << inference_index[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+inference_index[3] << inference_index[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output_en << output_en~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MNIST_MLP|int_weight1_bram:w1_bram

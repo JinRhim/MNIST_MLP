@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MNIST_MLP
-Wed Feb 21 13:53:02 2024
+Thu May 23 19:02:20 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Feb 21 13:53:01 2024       ;
+; Analysis & Synthesis Status     ; Successful - Thu May 23 19:02:20 2024       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; MNIST_MLP                                   ;
 ; Top-level Entity Name           ; MNIST_MLP                                   ;
@@ -95,7 +95,7 @@ refer to the applicable agreement for further details.
 ; Device                                                                          ; 5CEBA4F23C7        ;                    ;
 ; Top-level entity name                                                           ; MNIST_MLP          ; MNIST_MLP          ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
-; Use smart compilation                                                           ; Off                ; Off                ;
+; Use smart compilation                                                           ; On                 ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
 ; Enable compact report table                                                     ; Off                ; Off                ;
 ; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
@@ -182,16 +182,16 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.89        ;
+; Average used               ; 2.24        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  24.1%      ;
-;     Processor 3            ;  16.7%      ;
-;     Processor 4            ;  16.6%      ;
-;     Processor 5            ;  16.6%      ;
-;     Processor 6            ;  14.6%      ;
+;     Processor 2            ;  24.8%      ;
+;     Processor 3            ;  24.8%      ;
+;     Processor 4            ;  24.8%      ;
+;     Processor 5            ;  24.7%      ;
+;     Processor 6            ;  24.7%      ;
 +----------------------------+-------------+
 
 
@@ -215,7 +215,7 @@ refer to the applicable agreement for further details.
 ; altram.inc                                          ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc            ;         ;
 ; altdpram.inc                                        ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
 ; db/altsyncram_dee1.tdf                              ; yes             ; Auto-Generated Megafunction                           ; D:/github/MNIST_MLP/db/altsyncram_dee1.tdf                                   ;         ;
-; db/MNIST_MLP.ram0_int_weight1_bram_8eefd786.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; D:/github/MNIST_MLP/db/MNIST_MLP.ram0_int_weight1_bram_8eefd786.hdl.mif      ;         ;
+; db/mnist_mlp.ram0_int_weight1_bram_8eefd786.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; D:/github/MNIST_MLP/db/mnist_mlp.ram0_int_weight1_bram_8eefd786.hdl.mif      ;         ;
 ; lpm_divide.tdf                                      ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf        ;         ;
 ; abs_divider.inc                                     ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc       ;         ;
 ; sign_div_unsign.inc                                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc   ;         ;
@@ -1969,7 +1969,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:34     ;
+; Top            ; 00:00:29     ;
 +----------------+--------------+
 
 
@@ -1979,7 +1979,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 21 13:52:12 2024
+    Info: Processing started: Thu May 23 19:01:37 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MNIST_MLP -c MNIST_MLP
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -2101,10 +2101,10 @@ Info (21057): Implemented 27725 device resources after synthesis - the final res
     Info (21064): Implemented 512 RAM segments
     Info (21062): Implemented 52 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 26 warnings
-    Info: Peak virtual memory: 5072 megabytes
-    Info: Processing ended: Wed Feb 21 13:53:02 2024
-    Info: Elapsed time: 00:00:50
-    Info: Total CPU time (on all processors): 00:01:11
+    Info: Peak virtual memory: 5098 megabytes
+    Info: Processing ended: Thu May 23 19:02:20 2024
+    Info: Elapsed time: 00:00:43
+    Info: Total CPU time (on all processors): 00:01:01
 
 
 +------------------------------------------+

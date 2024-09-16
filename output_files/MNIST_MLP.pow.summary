@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Thu May 23 19:10:51 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MNIST_MLP
+Top-level Entity Name : MNIST_MLP
+Family : Cyclone V
+Device : 5CEBA4F23C7
+Power Models : Final
+Total Thermal Power Dissipation : 198.19 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 194.39 mW
+I/O Thermal Power Dissipation : 3.80 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
