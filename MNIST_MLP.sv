@@ -1,26 +1,3 @@
-`timescale 1ns/10ps
-
-// ============================================================================
-// State Machine  =============================================================
-// ============================================================================
-
-typedef enum {
-    IDLE,
-    BUFFER_PROCESSING, 
-    BUFFER_DONE, 
-    W1_PROCESSING,
-    W1_DONE,
-    B1_PROCESSING,
-    B1_DONE,
-    W2_PROCESSING,
-    W2_DONE,
-    B2_PROCESSING,
-    B2_DONE,
-    SOFTMAX_PROCESSNG, 
-    SOFTMAX_DONE,
-    OUTPUT_READY
-} state_t;
-
 // ============================================================================
 // Top Module =================================================================
 // ============================================================================
@@ -45,7 +22,6 @@ reg [9:0] w1_addr = 10'b0000000000;
 wire [0:0] b1_addr = 1'b0;
 reg [9:0] w2_addr = 6'b000000;
 wire [0:0] b2_addr = 1'b0;
-
 
 wire [511:0] w1_bram_data; //512-bit wide BRAM data for weights
 wire [511:0] b1_bram_data; //512-bit wide BRAM data for weights
@@ -140,8 +116,6 @@ softmax softmax_mul (
     .softmax_out(softmax_out)
 );
 
-state_t current_state = IDLE;
-
 // ============================================================================
 // Logic ======================================================================
 // ============================================================================
@@ -160,7 +134,7 @@ end
 always @(posedge clk) begin
     if (output_en) begin end 
     else if (input_en) begin
-	//$display("Buffer Input index: %d pixel_in: %2h,", buffer_index, pixel_in);
+	    $display("Buffer Input index: %d pixel_in: %2h,", buffer_index, pixel_in);
         pixel_buffer[buffer_index] <= pixel_in;
         buffer_index <= (buffer_index + 1);
     end
